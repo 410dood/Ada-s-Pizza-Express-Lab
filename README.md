@@ -19,9 +19,9 @@ Everyone's favorite computer scientist has decided to start her own pizza chain,
     - list of all pizzas
     - individual pizzas
 - These should be populated with information from the pizza object
+
+## Bonus
 - Every once in a while, quit the process you started with `npm run dev` and run `npm test` to check out how you're doing.
 - Try the bonus described in `routes/pizza.js`!!
-- If you're proud of where you get, put the lab on ngrok and slack it to J :)
-- You can work in pairs or groups for this lab.
 
 ## Good luck, pizza warriors!! 💪💪
