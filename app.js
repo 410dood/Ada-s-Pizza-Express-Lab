@@ -18,14 +18,10 @@ app.set('view engine', 'ejs');
 app.use(logger('dev'));
 app.use('/static', express.static(path.join(__dirname, 'public')));
 
-/* import routes */
-// we're giving you this one for free...
-const indexRoute = require('./routes/index');
-// but you may need to add another one. 🤔
 
-/* set routes */
-app.use('/', indexRoute);
-app.use('/pizza'/* name of route */);
+app.get("/sample", function(req,res){
+	// here's a sample route
+})
 
 /* error handler */
 app.get('*', function(req, res) {
