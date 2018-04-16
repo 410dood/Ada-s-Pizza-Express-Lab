@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <h1>
+        <%= message %>
+    </h1>
+
+    <h2>
+        <%= documentTitle %>
+    </h2>
+    <p>
+        <%= subTitle %>
+    </p>
+
+
+
+    <h1>
+        <%= title %>
+    </h1>
+    <ul>
+        <% for(var i=0; i<pizzas.length; i++) {%>
+            <li>
+                <%= pizzas[i] %>
+            </li>
+            <% } %>
+    </ul>
+    <%= img_tag('assets/ada-chef.jpg') %>
+
+</body>
+
+</html>

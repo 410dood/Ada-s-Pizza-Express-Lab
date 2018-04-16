@@ -2,3 +2,26 @@
   This view should only display one pizza, with flavor, location, and picture.
 -->
 
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+  <title></title>
+</head>
+
+
+
+<ul>
+  <% for(var i=0; i<pizzas.length; i++) {%>
+    <li>
+      <%= pizzas[i].flavor %>
+    </li>
+    <% } %>
+</ul>
+<img src='../assets/ada-chef.jpg' />
+
+</body>
+
+</html>

@@ -2,3 +2,37 @@
   - have a list of every pizza flavor
   - the pizza flavors should also have the location and the picture
 --> 
+
+<!-- doctype html
+html(lang="en") head title= title 
+  body 
+    h1= title
+    h1= pizza.name
+    ul 
+    for topping in pizza.toppings
+       li= topping -->
+
+    
+
+
+      <!DOCTYPE html>
+      <html>
+      
+      <head>
+        <title></title>
+      </head>
+     
+      
+      
+                <ul>
+                  <% for(var i=0; i<pizzas.length; i++) {%>
+                    <li>
+                      <%= pizzas[i].flavor %>
+                    </li>
+                    <% } %>
+                </ul>
+                <img src ='../assets/ada-chef.jpg'/>
+
+      </body>
+      
+      </html>
